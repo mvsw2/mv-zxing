@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/yuzhiqiang1993/zxing.svg)](https://jitpack.io/#yuzhiqiang1993/zxing)
+[![](https://jitpack.io/v/mvsw2/mv-zxing.svg)](https://jitpack.io/#mvsw2/mv-zxing)
 
 # zxing
 一句话依赖就能实现扫一扫功能，包含闪光灯开关，选取本地图片解析，生成二维码(可带logo)功能等。
@@ -7,14 +7,14 @@
 
 
 版本说明：
-https://github.com/yuzhiqiang1993/zxing/releases
+https://github.com/mvsw2/mv-zxing/releases
 
 博客： http://blog.csdn.net/yuzhiqiang_1993/article/details/78292004
 
 
 扫描二维码下载APK体验一下
 ========
-![扫描二维码](https://github.com/yuzhiqiang1993/zxing/blob/master/img/downloadApk.png "扫描下载APK")
+![扫描二维码](https://github.com/mvsw2/mv-zxing/blob/master/img/downloadApk.png "扫描下载APK")
 
 
 首先来看看效果图
@@ -24,12 +24,12 @@ https://github.com/yuzhiqiang1993/zxing/releases
 下图分别为 完整示例，扫描二维码，扫描条码，闪光灯，解析二维码图片，解析条码图片，生成二维码,修改扫描框四个角的颜色，修改扫描框边线颜色
 ------------------------
 
-![扫描二维码](https://github.com/yuzhiqiang1993/zxing/blob/master/img/scanEwm.gif "扫描二维码")
-![扫描条码](https://github.com/yuzhiqiang1993/zxing/blob/master/img/scanTm.gif "扫描条码")
-![闪光灯](https://github.com/yuzhiqiang1993/zxing/blob/master/img/flashlight.gif "闪光灯")
-![解析二维码图片](https://github.com/yuzhiqiang1993/zxing/blob/master/img/decodeEWM.gif "解析二维码图片")
-![解析条码图片](https://github.com/yuzhiqiang1993/zxing/blob/master/img/decodeTM.gif "解析条码图片")
-![生成二维码图片](https://github.com/yuzhiqiang1993/zxing/blob/master/img/createEwm.gif "生成二维码图片")
+![扫描二维码](https://github.com/mvsw2/mv-zxing/blob/master/img/scanEwm.gif "扫描二维码")
+![扫描条码](https://github.com/mvsw2/mv-zxing/blob/master/img/scanTm.gif "扫描条码")
+![闪光灯](https://github.com/mvsw2/mv-zxing/blob/master/img/flashlight.gif "闪光灯")
+![解析二维码图片](https://github.com/mvsw2/mv-zxing/blob/master/img/decodeEWM.gif "解析二维码图片")
+![解析条码图片](https://github.com/mvsw2/mv-zxing/blob/master/img/decodeTM.gif "解析条码图片")
+![生成二维码图片](https://github.com/mvsw2/mv-zxing/blob/master/img/createEwm.gif "生成二维码图片")
 
 
 
@@ -55,15 +55,15 @@ allprojects {
 
 然后在 build.gradle(Module:app) 的 dependencies 添加:
 
-最新版本：https://github.com/yuzhiqiang1993/zxing/releases
-[![](https://jitpack.io/v/yuzhiqiang1993/zxing.svg)](https://jitpack.io/#yuzhiqiang1993/zxing)
+最新版本：https://github.com/mvsw2/mv-zxing/releases
+[![](https://jitpack.io/v/mvsw2/mv-zxing.svg)](https://jitpack.io/#mvsw2/mv-zxing)
  ```
  dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:26.1.0'
     
     /*添加依赖*/
-    implementation 'com.github.yuzhiqiang1993:zxing:2.2.5'
+    implementation 'com.github.mvsw2:zxing:2.2.5'
 }
 
  
